@@ -1,0 +1,369 @@
+:root {
+  /**
+      |============================
+      | FONTS
+      |============================
+    */
+  --primary-font: Inter, sans-serif;
+  --minor-font: Fredoka, sans-serif;
+
+  /**
+    |============================
+    | TEXT COLOR
+    |============================
+  */
+  --brand-cl: #d61fda;
+  --primary-dark-cl: #1b1b20;
+  --minor-dark-cl: #626262;
+  --dark-cl: #000000;
+  --light-cl: #ffffff;
+}
+
+/**
+  |============================
+  | COMMON STYLE
+  |============================
+*/
+
+body {
+  font-family: var(--primary-font);
+  font-size: 24px;
+  line-height: 1.2;
+  color: var(--primary-dark-cl);
+}
+
+.section {
+}
+
+.download-link {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  color: var(--light-cl);
+
+  background-color: var(--brand-cl);
+}
+
+/**
+  |============================
+  | RESET
+  |============================
+*/
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/**
+  |============================
+  | HEADER STYLE
+  |============================
+*/
+
+.header {
+}
+
+.header-nav {
+}
+
+.header-logo {
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 1.92px;
+  text-transform: uppercase;
+}
+
+.header-nav-list {
+}
+
+.header-nav-item {
+}
+
+.header-nav-link {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/**
+  |============================
+  | HERO STYLE
+  |============================
+*/
+
+.hero-section {
+  background-color: var(--brand-cl);
+}
+
+.hero-title {
+  font-family: var(--minor-font);
+  font-size: 64px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.hero-desc {
+}
+
+.hero-list {
+}
+
+.hero-item {
+}
+
+.hero-link {
+}
+
+.hero-img {
+}
+
+/**
+  |============================
+  | FEATURES STYLE
+  |============================
+*/
+
+.features-section {
+}
+
+.features-list {
+}
+
+.features-item {
+}
+
+.features-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--dark-cl);
+}
+
+.features-desc {
+  text-align: center;
+}
+
+/**
+  |============================
+  | FIT CRYPTO 
+  |============================
+*/
+
+.fit-crypto-section {
+}
+
+.fit-crypto-uppertitle {
+  font-size: 20px;
+  text-align: center;
+}
+
+.fit-crypto-title {
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.features-title-accent {
+  color: var(--brand-cl);
+}
+
+.fit-crypto-desc {
+  text-align: center;
+  color: var(--minor-dark-cl);
+}
+
+/**
+  |============================
+  | USING CRYPTO STYLE
+  |============================
+*/
+
+.using-crypto-section {
+}
+
+.using-crypto-title {
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.using-crypto-title-accent {
+  color: var(--brand-cl);
+}
+
+.using-crypto-desc {
+  text-align: center;
+  color: var(--minor-dark-cl);
+}
+
+/**
+  |============================
+  | EARN CRYPTO STYLE
+  |============================
+*/
+
+.earn-crypto-section {
+}
+
+.earn-crypto-title {
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--dark-cl);
+}
+
+.earn-crypto-list {
+}
+
+.earn-crypto-item {
+}
+
+.earn-crypto-step {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--dark-cl);
+}
+
+.earn-crypto-step-list {
+}
+
+.earn-crypto-step-item {
+  font-size: 16px;
+}
+
+/**
+  |============================
+  | TYPE OF ACCESS STYLE
+  |============================
+*/
+
+.access-section {
+}
+
+.access-title {
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.access-title-accent {
+  color: var(--brand-cl);
+}
+
+.access-list {
+}
+
+.access-item {
+}
+
+.access-type {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.access-type-accent {
+  color: var(--brand-cl);
+}
+
+.access-price {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.access-desc {
+  text-align: center;
+  color: #2d2d2d;
+}
+
+/**
+  |============================
+  | EARING CALC STYLE
+  |============================
+*/
+
+.earning-calc-section {
+}
+
+.earning-calc-title {
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.earning-calc-title-accent {
+  color: var(--brand-cl);
+}
+
+.earning-calc-head-list {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--dark-cl);
+}
+
+.earning-calc-list {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--dark-cl);
+}
+
+.avatar-item {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--dark-cl);
+}
+
+.right-list {
+  text-align: right;
+}
+
+.hardware-item {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--minor-dark-cl);
+}
+
+/**
+  |============================
+  | FOOTER STYLE
+  |============================
+*/
+
+.footer {
+  background-color: var(--brand-cl);
+}
+
+.footer-attention {
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--light-cl);
+}
+
+.footer-signup {
+  text-align: right;
+  color: var(--light-cl);
+}
+
+.footer-input {
+}
+
+.footer-privacy-policy {
+  text-align: right;
+  color: var(--light-cl);
+}

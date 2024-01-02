@@ -4,36 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fitness Mirrors</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Inter:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CUSTOM STYLES -->
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">Fit mirror</a>
+    <header class="header">
+      <nav class="header-nav">
+        <a class="link header-logo" href="./index.html">Fit mirror</a>
 
-        <ul>
-          <li><a href="">ABOUT</a></li>
-          <li><a href="">LITEPAPER</a></li>
-          <li><a href="">TOKEN</a></li>
-          <li><a href="">PRODUCTS</a></li>
+        <ul class="list header-nav-list">
+          <li class="header-nav-item">
+            <a class="link header-nav-link" href="">ABOUT</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="link header-nav-link" href="">LITEPAPER</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="link header-nav-link" href="">TOKEN</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="link header-nav-link" href="">PRODUCTS</a>
+          </li>
         </ul>
       </nav>
 
-      <a href="" target="_blank" rel="noopener noreferrer">download now</a>
+      <a
+        class="link download-link"
+        href=""
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        download now
+      </a>
     </header>
 
     <main>
       <!-- Hero section -->
-      <section>
-        <h1>TRAIN, PROGRESS & EARN CRYPTO</h1>
-        <p>
+      <section class="section hero-section">
+        <h1 class="hero-title">TRAIN, PROGRESS & EARN CRYPTO</h1>
+        <p class="hero-desc">
           FIT MIRROR is a web3 train 2 earn ecosystem for fitness & health that
           transforms real money spent on healthy activities into FIT MIRROR
           tokens & shareholding ownership.
         </p>
-        <ul>
-          <li>
-            <a href="" target="_blank" rel="noopener noreferrer">
+        <ul class="list hero-list">
+          <li class="hero-item">
+            <a
+              class="link hero-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
+                class="hero-img"
                 src="./img/hero/download-app-store.jpg"
                 alt="link for download on the app store"
                 width="221"
@@ -41,9 +73,15 @@
               />
             </a>
           </li>
-          <li>
-            <a href="" target="_blank" rel="noopener noreferrer">
+          <li class="hero-item">
+            <a
+              class="link hero-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
+                class="hero-img"
                 src="./img/hero/download-google-play.jpg"
                 alt="link for get it on google play"
                 width="221"
@@ -55,35 +93,35 @@
       </section>
 
       <!-- Features section -->
-      <section>
+      <section class="section features-section">
         <h2 hidden>Features</h2>
-        <ul>
-          <li>
+        <ul class="list features-list">
+          <li class="features-item">
             <!-- <svg class="" width="" height="">
               <use href=""></use>
             </svg> -->
-            <h3>Workouts on your schedule</h3>
-            <p>
+            <h3 class="features-title">Workouts on your schedule</h3>
+            <p class="features-desc">
               50+ live classes streaming weekly. 5000+ on-demand classes
               available.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <!-- <svg class="" width="" height="">
               <use href=""></use>
             </svg> -->
-            <h3>Dynamic tools and classes</h3>
-            <p>
+            <h3 class="features-title">Dynamic tools and classes</h3>
+            <p class="features-desc">
               Find what suits you best: On-demand, live classes, and goal based
               programs.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <!-- <svg class="" width="" height="">
               <use href=""></use>
             </svg> -->
-            <h3>Empowering community</h3>
-            <p>
+            <h3 class="features-title">Empowering community</h3>
+            <p class="features-desc">
               Join like-minded people eager to pioneer a new way of staying fit.
             </p>
           </li>
@@ -91,10 +129,13 @@
       </section>
 
       <!-- Fit crypto section -->
-      <section>
-        <p>INTRODUCING</p>
-        <h2>FIT MIRROR the fitcOIN token</h2>
-        <p>
+      <section class="section fit-crypto-section">
+        <p class="fit-crypto-uppertitle">INTRODUCING</p>
+        <h2 class="fit-crypto-title">
+          FIT MIRROR the
+          <span class="features-title-accent">fitcOIN</span> token
+        </h2>
+        <p class="fit-crypto-desc">
           A new cryptocurrency that makes you earn for training & being more
           healthy. Earn what you spend, bonuses & get the rights of a FIT MIRROR
           shareholder
@@ -102,9 +143,13 @@
       </section>
 
       <!-- Using crypto section -->
-      <section>
-        <h2>MAKING CRYPTO ACCESSIBLE TO ANYONE</h2>
-        <p>
+      <section class="section using-crypto-section">
+        <h2 class="using-crypto-title">
+          MAKING
+          <span class="using-crypto-title-accent">CRYPTO</span> ACCESSIBLE
+          <span class="using-crypto-title-accent">TO ANYONE</span>
+        </h2>
+        <p class="using-crypto-desc">
           FIT MIRROR converts your training into crypto, FITCOIN, offering
           millions easy access to the world of cryptocurrencies with Game-Fi and
           Social-Fi, FIT MIRROR aims to become a platform that serves millions
@@ -115,32 +160,40 @@
       </section>
 
       <!-- Earn crypto section -->
-      <section>
-        <h2>HOW YOU EARN</h2>
-        <ul>
-          <li>
-            <p>Step 1</p>
-            <ul>
-              <li>Download the FIT MIRROR App</li>
-              <li>Spend 120 euro and get your Avatar NFT</li>
-              <li>Do your first workout and learn the game</li>
+      <section class="section earn-crypto-section">
+        <h2 class="earn-crypto-title">HOW YOU EARN</h2>
+        <ul class="list earn-crypto-list">
+          <li class="earn-crypto-item">
+            <p class="earn-crypto-step">Step 1</p>
+            <ul class="earn-crypto-step-list">
+              <li class="earn-crypto-step-item">Download the FIT MIRROR App</li>
+              <li class="earn-crypto-step-item">
+                Spend 120 euro and get your Avatar NFT
+              </li>
+              <li class="earn-crypto-step-item">
+                Do your first workout and learn the game
+              </li>
             </ul>
           </li>
-          <li>
-            <p>Step 2</p>
-            <ul>
-              <li>Train 240 min monthly to unlock your credits</li>
-              <li>Train more and win extra FITCOINs every month</li>
+          <li class="earn-crypto-item">
+            <p class="earn-crypto-step">Step 2</p>
+            <ul class="earn-crypto-step-list">
+              <li class="earn-crypto-step-item">
+                Train 240 min monthly to unlock your credits
+              </li>
+              <li class="earn-crypto-step-item">
+                Train more and win extra FITCOINs every month
+              </li>
             </ul>
           </li>
-          <li>
-            <p>Step 3</p>
-            <ul>
-              <li>Transform your body & mind</li>
-              <li>
+          <li class="earn-crypto-item">
+            <p class="earn-crypto-step">Step 3</p>
+            <ul class="earn-crypto-step-list">
+              <li class="earn-crypto-step-item">Transform your body & mind</li>
+              <li class="earn-crypto-step-item">
                 After 12 months earn up to 12% interest rate on your tokens
               </li>
-              <li>
+              <li class="earn-crypto-step-item">
                 Swap your tokens or claim your FIT MIRROR shareholder rights
               </li>
             </ul>
@@ -149,29 +202,38 @@
       </section>
 
       <!-- Type of access section -->
-      <section>
-        <h2>SUPERCHARGE YOUR TRAINING WITH THE FIT MIRROR</h2>
-        <ul>
-          <li>
-            <ul>
-              <li><h3>FIT MIRROR S</h3></li>
-              <li>NFT entry 1400 euro</li>
-              <li>You get a super smart mirror to thain with</li>
-            </ul>
+      <section class="section access-section">
+        <h2 class="access-title">
+          SUPERCHARGE YOUR TRAINING WITH THE
+          <span class="access-title-accent">FIT MIRROR</span>
+        </h2>
+        <ul class="list access-list">
+          <li class="access-item">
+            <h3 class="access-type">
+              FIT MIRROR <span class="access-type-accent">S</span>
+            </h3>
+            <p class="access-price">NFT entry 1400 euro</p>
+            <p class="access-desc">
+              You get a super smart mirror to thain with
+            </p>
             <img
+              class="access-img"
               src="./img/type of access/mirror-S.png"
               alt="mirror S"
               width="295"
               height="650"
             />
           </li>
-          <li>
-            <ul>
-              <li><h3>FIT MIRROR x</h3></li>
-              <li>NFT entry 2400 euro</li>
-              <li>You get a super smart mirror to thain with</li>
-            </ul>
+          <li class="access-item">
+            <h3 class="access-type">
+              FIT MIRROR <span class="access-type-accent">x</span>
+            </h3>
+            <p class="access-price">NFT entry 2400 euro</p>
+            <p class="access-desc">
+              You get a super smart mirror to thain with
+            </p>
             <img
+              class="access-img"
               src="./img/type of access/mirror-X.png"
               alt="mirror X"
               width="375"
@@ -182,42 +244,53 @@
       </section>
 
       <!-- Earning calculator section -->
-      <section>
-        <h2>EARNING CALCULATOR</h2>
-        <ul>
-          <li>Avatar</li>
-          <li>Hardware</li>
-          <li>Current NFT epoch</li>
-          <li>epoch 1</li>
-          <li>Pay rate</li>
-          <li>100%</li>
-          <li>Exchange rate</li>
-          <li>0.245 euro / token</li>
-          <li>Entry cost</li>
-          <li>120 euro</li>
-          <li>Train length</li>
-          <li>12 month</li>
-          <li>Max tokens to earn</li>
-          <li>320</li>
-          <li>Bonuses to earn</li>
-          <li>78 fitcoins</li>
-          <li>Total</li>
-          <li>398 fitcoins</li>
-          <li>Total value in next epoch</li>
-          <li>412 euro</li>
+      <section class="section earning-calc-section">
+        <h2 class="earning-calc-title">
+          EARNING <span class="earning-calc-title-accent">CALCULATOR</span>
+        </h2>
+        <p class="earning-calc-head-list">Avatar</p>
+        <ul class="list earning-calc-list avatar-list">
+          <li class="avatar-item">Current NFT epoch</li>
+          <li class="avatar-item">Pay rate</li>
+          <li class="avatar-item">Exchange rate</li>
+          <li class="avatar-item">Entry cost</li>
+          <li class="avatar-item">Train length</li>
+          <li class="avatar-item">Max tokens to earn</li>
+          <li class="avatar-item">Bonuses to earn</li>
+          <li class="avatar-item">Total</li>
+          <li class="avatar-item">Total value in next epoch</li>
+        </ul>
+        <p class="earning-calc-head-list right-list">Hardware</p>
+        <ul class="list earning-calc-list right-list">
+          <li class="hardware-item">epoch 1</li>
+          <li class="hardware-item">100%</li>
+          <li class="hardware-item">0.245 euro / token</li>
+          <li class="hardware-item">120 euro</li>
+          <li class="hardware-item">12 month</li>
+          <li class="hardware-item">320</li>
+          <li class="hardware-item">78 fitcoins</li>
+          <li class="hardware-item">398 fitcoins</li>
+          <li class="hardware-item">412 euro</li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <b>JOIN THE WAITING LIST</b>
-      <p>
+    <footer class="footer">
+      <b class="footer-attention">JOIN THE WAITING LIST</b>
+      <p class="footer-signup">
         Sign up for our newsletter and be the first to know about updates, new
         classes, challenges, and much more.
       </p>
-      <input type="email" />
-      <a href="" target="_blank" rel="noopener noreferrer">download now</a>
-      <p>
+      <input class="footer-input" type="email" />
+      <a
+        class="link download-link"
+        href=""
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        download now
+      </a>
+      <p class="footer-privacy-policy">
         Information on how FIT MIRROR handles your data can be found in our
         privacy policy
       </p>
